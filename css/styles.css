@@ -32,7 +32,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 word-wrap: break-word;
 }
-.menu-nav>a {
+.menu-nav {
     color: #2E2F42;
 font-size: 16px;
 font-weight: 500;
@@ -40,13 +40,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 word-wrap: break-word;
 }
-.menu-nav>a:hover, .menu-nav>a:focus, .list-contact:active {
+.menu-nav:hover, .menu-nav:focus, .list-contact:active {
     color: #404BBF;
 }
 .list-contact {
     font-style: normal;
 }
-.mail, .phone {
+.contact {
     color: #434455;
 font-size: 16px;
 font-weight: 400;
@@ -54,7 +54,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 word-wrap: break-word;
 }
-.mail:hover, .phone:hover, .mail:focus, .phone:focus {
+.contact:hover, .contact:focus {
     color: #404BBF;
 }
 .hero {
